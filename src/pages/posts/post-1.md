@@ -8,4 +8,6 @@ image:
 pubDate: 2024-10-10
 tags: ["mindfulness", "balance", "self-care"]
 ---
+
+
 Life can feel overwhelming, but finding ways to stay centered has made a huge difference. Taking time for self-care, like meditation and reflection, has helped me focus on what truly matters.

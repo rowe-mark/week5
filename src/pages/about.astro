@@ -3,6 +3,8 @@ import '../styles/global.css'; // Importing global styles for the project.
 import Navigation from '../components/navigation.astro'; // Importing the Navigation component.
 const pageTitle = "About Me"; // Defining the page title for the <title> tag.
 
+
+
 const identity = {
   firstName: "Mark",
   country: "Ireland",
@@ -10,8 +12,12 @@ const identity = {
   hobbies: ["music", "running", "art"],
 }; // Object storing basic identity information for easy reference.
 
+
+
 const skills = ["HTML", "CSS", "JavaScript", "React", "Astro", "Writing Docs"]; // Array of skills to list on the page.
 const skillColor = "purple"; // Defining a color variable for styling skill text.
+
+
 
 ---
 
@@ -23,6 +29,8 @@ const skillColor = "purple"; // Defining a color variable for styling skill text
 		<meta name="generator" content={Astro.generator} /> <!-- Displays Astro as the generator in metadata. -->
 		<title> {pageTitle} </title> <!-- Dynamic title of the page based on `pageTitle` variable. -->
 
+
+
 		<style define:vars={{skillColor}}>
 			h1 {
 			  color: purple;
@@ -32,6 +40,9 @@ const skillColor = "purple"; // Defining a color variable for styling skill text
 				color: var(--skillColor); /* Using skillColor variable for text color. */
 				font-weight: bold;
 			}
+
+
+
 		</style> <!-- Inline styles using skillColor for customized theme colors. -->
 	</head>
 
@@ -48,6 +59,8 @@ const skillColor = "purple"; // Defining a color variable for styling skill text
 			} <!-- Conditional rendering: displays two hobbies if the array has at least two items. -->
 		</ul>
 
+
+		
 		<p>My skills are:</p>
 		<ul>
 			{skills.map((skill) => <li>{skill}</li>)} <!-- Iterating over the skills array to render each skill in a list item. -->

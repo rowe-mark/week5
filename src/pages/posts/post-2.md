@@ -8,6 +8,7 @@ image:
 pubDate: 2024-09-25
 tags: ["personal growth", "challenges", "confidence"]
 ---
+
 # Building Confidence Through New Challenges
 
 Trying new things isn't easy, but each challenge I've faced has boosted my confidence. Whether it's learning a new skill or taking on a project, every experience has been worth it.
